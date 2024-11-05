@@ -1,0 +1,41 @@
+//DATOS PARA ACTUALIZAR EL USUARIO 
+username, password, email
+token en el header
+RUTAS
+//UPDATE
+/api/user/upadate
+//DELETE
+token en el header
+/api/user/delete
+
+//RUTA PARA LOS PEDIDOS 
+http://localhost:3400/api/pedidos/
+MODELO DEL OBJETO 
+NECESITA TOKEN DEL HEADER
+{
+  "productos": [
+    {
+      "idProducto": "66bdfa54edc272754e5a5456",
+      "cantidad": 2
+    }
+  ],
+  "totalFinal": 24000
+}
+
+//PUBLICACIONES
+DATOS NECESARIOS
+title, description, price , imagen,type
+TOKEN EN EL HEADER
+//RUTA
+*subir*
+/api/publics/upload
+*actualizar*
+/api/publics/update
+*obtener*
+/api/publics/
+*eliminar*
+/api/publics/delete
+
+//ruta para los filtros y el catalogo 
+/api/productos/filter?query=valor-de-busqueda
+
